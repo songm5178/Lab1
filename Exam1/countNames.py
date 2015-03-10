@@ -4,6 +4,9 @@ Question 2: See specification on exam paper.
 Min Song
 '''
 
+#This does a good job of counting names! - Jonathan Kurian
+
+
 def countJNames(names):
     #DONE: Replace the pass with your code.
     numJs = 0
