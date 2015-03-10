@@ -1,0 +1,27 @@
+'''
+Question 3: See specification on exam paper.
+
+@author: <Your name here>
+'''
+from zellegraphics import *
+
+def drawTangentCircles(win, bottomPoint, radiusDifference, nCircles):
+    ''' win: the graphical window  
+        bottomPoint: the Point at the bottom of the tangent circles
+        radiusDifference: how much the radius changes each time as the circles increase in size
+        nCircles: the number of circles to draw
+    '''    
+    #TODO: 1 Replace the pass with your code
+    pass
+
+def main():            
+    win = GraphWin("Test", 400, 400)
+    drawTangentCircles(win, Point(200, 200), 15, 5)
+    #TODO: 2 uncomment these when you are ready for more testing. You may add more tests if you like.
+    #drawTangentCircles(win, Point(300, 300), 6, 10)
+    #drawTangentCircles(win, Point(100, 350), 3, 25)
+    win.getMouse()
+    win.close()
+
+main()
+    
